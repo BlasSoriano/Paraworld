@@ -1,5 +1,11 @@
 # Paraworld
 Stuff related to the game Paraworld
 
-First project will be a DLL to handle the game resources, starting with the GSF packages
-Second project will be a tool to handle packing/unpacking GSF packages
+# ParaworldResources
+Dll to handle the game resources. Currently working on gsf packages
+
+# TestControls
+WindowsPresentationsFoundation Dll with an UserControl as a simple mesh viewer; used in tests
+
+# Tests1
+WinForms Applications continuously changing to test different stuff; uses both previous Dlls
