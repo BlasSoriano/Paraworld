@@ -40,10 +40,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graphics\Animation.cs" />
     <Compile Include="Graphics\BoundingBox.cs" />
+    <Compile Include="Graphics\Material.cs" />
+    <Compile Include="Graphics\Mesh.cs" />
+    <Compile Include="Graphics\Model.cs" />
+    <Compile Include="Graphics\TextureCoords.cs" />
+    <Compile Include="Graphics\Triangle.cs" />
     <Compile Include="Graphics\Vertex.cs" />
+    <Compile Include="GsfPack\BaseChunk.cs" />
+    <Compile Include="GsfPack\BaseChunkList.cs" />
+    <Compile Include="GsfPack\Chunks\ChildsDef.cs" />
+    <Compile Include="GsfPack\Chunks\ContentsTable.cs" />
+    <Compile Include="GsfPack\Chunks\Def.cs" />
+    <Compile Include="GsfPack\Chunks\Header.cs" />
+    <Compile Include="GsfPack\Chunks\MaterialDef.cs" />
+    <Compile Include="GsfPack\Chunks\MaterialsHeader.cs" />
+    <Compile Include="GsfPack\Chunks\MaterialsTable.cs" />
+    <Compile Include="GsfPack\Chunks\MeshData.cs" />
+    <Compile Include="GsfPack\Chunks\MeshDef.cs" />
+    <Compile Include="GsfPack\Chunks\NextChunkType00.cs" />
+    <Compile Include="GsfPack\Chunks\NodesTree.cs" />
+    <Compile Include="GsfPack\Chunks\ObjectsTable.cs" />
+    <Compile Include="GsfPack\Chunks\SubObjectsTable.cs" />
+    <Compile Include="GsfPack\Chunks\Text.cs" />
+    <Compile Include="GsfPack\Chunks\TransformationData.cs" />
+    <Compile Include="GsfPack\GsfPackage.cs" />
+    <Compile Include="Helpers\Text\CText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

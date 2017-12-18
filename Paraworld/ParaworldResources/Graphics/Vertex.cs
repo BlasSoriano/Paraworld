@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParaworldResources.Graphics
+namespace Paraworld.Resources.Graphics
 {
     public class Vertex
     {
