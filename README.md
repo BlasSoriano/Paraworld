@@ -1,7 +1,7 @@
 # Paraworld
 Stuff related to the game Paraworld.
 
-Still in development, and open for ideas
+Still in development, and open for ideas and collaboration.
 
 
 # ParaworldResources
